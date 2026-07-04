@@ -6,7 +6,11 @@
 
 # Survival Shooter Game Project
 
-![Gameplay Placeholder][(https://via.placeholder.com/800x400?text=Gameplay+Screenshot/GIF)](https://github.com/user-attachments/assets/a60ec4dd-b7a2-4143-a913-e6d894340d39)
+Game Play:
+
+https://github.com/user-attachments/assets/5ece4b9a-ff9e-4d18-a42b-c4292954f82a
+
+
 
 ## 📖 Introduction
 This is a Top-Down Survival/Roguelike game developed in **Unity**. The game focuses on intense wave-based combat, strategic upgrades, and dynamic player-enemy interactions.
@@ -43,7 +47,7 @@ This project was built focusing on best practices in Game Programming:
 1. Ensure you have **Unity 60000.3.14f1 LTS** (or compatible newer version) installed.
 2. Clone this repository:
    ```bash
-   git clone [https://github.com/yourusername/SurvivalGame.git](https://github.com/DuongTieuLong/Elemental-Shooter.git)
+   git clone https://github.com/DuongTieuLong/Elemental-Shooter.git
    ```
 3. Open the project in Unity Hub (`Survival Game Project A` folder).
 4. Open the main scene located in `Assets/Scenes/`.

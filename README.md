@@ -52,6 +52,9 @@ This project was built focusing on best practices in Game Programming:
 3. Open the project in Unity Hub (`Survival Game Project A` folder).
 4. Open the main scene located in `Assets/Scenes/`.
 5. Press **Play** in the editor.
+   
+## Install play demo:
+Itch.io: https://kanalis.itch.io/elemental-shooter
 
 ## 🛠️ Technologies
 - **Engine:** Unity

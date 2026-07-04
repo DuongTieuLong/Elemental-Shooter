@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Obstacles
+  - Loot
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 540123783
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundDetail
+    uniqueID: 1149171616
+    locked: 0
+  - name: Objects
+    uniqueID: 1286237153
+    locked: 0
+  - name: Player
+    uniqueID: 2043965817
+    locked: 0
+  - name: Foreground
+    uniqueID: 812909395
+    locked: 0
+  - name: DamagePopup
+    uniqueID: 3636706227
+    locked: 0
+  m_RenderingLayers:
+  - Default

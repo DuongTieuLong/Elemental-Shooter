@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 043baea92160ea84b8a670d8eac0e375, type: 3}
+  m_Name: Tornado Reaction
+  m_EditorClassIdentifier: Assembly-CSharp::TornadoReaction
+  tornadoPrefab: {fileID: 8261001701118440001, guid: 6b8a7742a7cc09341b21dc5d0a4a06ff, type: 3}
+  baseDamage: 12
+  basePullSpeed: 4
+  pullRadius: 5
+  duration: 3.5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64

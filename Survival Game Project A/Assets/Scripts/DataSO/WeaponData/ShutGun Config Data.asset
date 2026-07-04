@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c081b0a1b8cd2b048974714b34353c39, type: 3}
+  m_Name: ShutGun Config Data
+  m_EditorClassIdentifier: Assembly-CSharp::ElementConfigData
+  elementVisuals:
+  - element: 0
+    customBulletPrefab: {fileID: 2157053555950815158, guid: 2b64a7528aad9764c828803eb409f692, type: 3}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 2ee4baabcc8f23949b42b688463e674d, type: 3}
+    muzzleVFXPrefab: {fileID: 0}
+  - element: 1
+    customBulletPrefab: {fileID: 8282863856018196882, guid: e46f585712925c348ac3c302b683aad7, type: 3}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 175468b433a208540ac9d00c50d88c9b, type: 3}
+    muzzleVFXPrefab: {fileID: 0}
+  - element: 2
+    customBulletPrefab: {fileID: 2662069278415601014, guid: d7a0eaedeaed46d4fb8d8db61e799dd0, type: 3}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 379ce99a64127994494a8201984fd9d4, type: 3}
+    muzzleVFXPrefab: {fileID: 0}
+  - element: 4
+    customBulletPrefab: {fileID: 2662069278415601014, guid: bdf5945e2571c42459375a9f3c5a31ee, type: 3}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 15a60b915aeee4243b03f5e60280b5bf, type: 3}
+    muzzleVFXPrefab: {fileID: 0}
+  defaultBulletPrefab: {fileID: 2157053555950815158, guid: 2b64a7528aad9764c828803eb409f692, type: 3}

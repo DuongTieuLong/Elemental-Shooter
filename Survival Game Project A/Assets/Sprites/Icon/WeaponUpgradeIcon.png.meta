@@ -1,0 +1,530 @@
+fileFormatVersion: 2
+guid: 03bc3c2bd120273459cbbb55c29f154a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1941927044345642482
+    second: WeaponUpgradeIcon_0
+  - first:
+      213: 4009817553214810237
+    second: WeaponUpgradeIcon_1
+  - first:
+      213: -25604688166616983
+    second: WeaponUpgradeIcon_2
+  - first:
+      213: -2693086493624683426
+    second: WeaponUpgradeIcon_3
+  - first:
+      213: 4194151478828404119
+    second: WeaponUpgradeIcon_4
+  - first:
+      213: -8910081993650801699
+    second: WeaponUpgradeIcon_5
+  - first:
+      213: -7658666484921243983
+    second: WeaponUpgradeIcon_6
+  - first:
+      213: -463162641550499113
+    second: WeaponUpgradeIcon_7
+  - first:
+      213: 1809456915696975511
+    second: WeaponUpgradeIcon_8
+  - first:
+      213: 6757381404673898031
+    second: WeaponUpgradeIcon_9
+  - first:
+      213: 2717889654654251480
+    second: WeaponUpgradeIcon_10
+  - first:
+      213: -6979083829556491630
+    second: WeaponUpgradeIcon_11
+  - first:
+      213: 5881267067876608981
+    second: WeaponUpgradeIcon_12
+  - first:
+      213: 1874382410182986871
+    second: WeaponUpgradeIcon_13
+  - first:
+      213: 781663870220121634
+    second: WeaponUpgradeIcon_14
+  - first:
+      213: 702991483388274204
+    second: WeaponUpgradeIcon_15
+  - first:
+      213: 5763741052329502121
+    second: WeaponUpgradeIcon_16
+  - first:
+      213: -3078696646934016004
+    second: WeaponUpgradeIcon_17
+  - first:
+      213: -758738696621116217
+    second: WeaponUpgradeIcon_18
+  - first:
+      213: 5877353552614533498
+    second: WeaponUpgradeIcon_19
+  - first:
+      213: 5495909055980525657
+    second: WeaponUpgradeIcon_20
+  - first:
+      213: -363651335529361867
+    second: WeaponUpgradeIcon_21
+  - first:
+      213: -538851543248810730
+    second: WeaponUpgradeIcon_22
+  - first:
+      213: -7839812552670231857
+    second: WeaponUpgradeIcon_23
+  - first:
+      213: 4594198052612990598
+    second: WeaponUpgradeIcon_24
+  - first:
+      213: -3473937160197036940
+    second: WeaponUpgradeIcon_25
+  - first:
+      213: 2521038874367166137
+    second: WeaponUpgradeIcon_26
+  - first:
+      213: -7197886221727887566
+    second: WeaponUpgradeIcon_27
+  - first:
+      213: -8101250084362107816
+    second: WeaponUpgradeIcon_28
+  - first:
+      213: 7154334624513448308
+    second: WeaponUpgradeIcon_29
+  - first:
+      213: 2475454485146372662
+    second: WeaponUpgradeIcon_30
+  - first:
+      213: 328888371041062810
+    second: WeaponUpgradeIcon_31
+  - first:
+      213: 7333810098871282340
+    second: WeaponUpgradeIcon_32
+  - first:
+      213: -8901377717155712300
+    second: WeaponUpgradeIcon_33
+  - first:
+      213: -8123925055624246076
+    second: WeaponUpgradeIcon_34
+  - first:
+      213: -8993609976236399548
+    second: WeaponUpgradeIcon_35
+  - first:
+      213: -6343370642718054398
+    second: WeaponUpgradeIcon_36
+  - first:
+      213: -2882539947118200062
+    second: WeaponUpgradeIcon_37
+  - first:
+      213: 2135829503821394412
+    second: WeaponUpgradeIcon_38
+  - first:
+      213: -30892489538632928
+    second: WeaponUpgradeIcon_39
+  - first:
+      213: -3713910147317767292
+    second: WeaponUpgradeIcon_40
+  - first:
+      213: -6520407645215891604
+    second: WeaponUpgradeIcon_41
+  - first:
+      213: 7732336675898250386
+    second: WeaponUpgradeIcon_42
+  - first:
+      213: -444573184360604043
+    second: WeaponUpgradeIcon_43
+  - first:
+      213: 6268027582754565197
+    second: WeaponUpgradeIcon_44
+  - first:
+      213: 3469740399112948575
+    second: WeaponUpgradeIcon_45
+  - first:
+      213: -4907263851472730907
+    second: WeaponUpgradeIcon_46
+  - first:
+      213: -3516713970022048392
+    second: WeaponUpgradeIcon_47
+  - first:
+      213: -2589529510471775518
+    second: WeaponUpgradeIcon_48
+  - first:
+      213: 3719777299328341466
+    second: WeaponUpgradeIcon_49
+  - first:
+      213: -8037818352860673201
+    second: WeaponUpgradeIcon_50
+  - first:
+      213: -5092145021103499099
+    second: WeaponUpgradeIcon_51
+  - first:
+      213: -3332914803164964231
+    second: WeaponUpgradeIcon_52
+  - first:
+      213: -7174729741721498766
+    second: WeaponUpgradeIcon_53
+  - first:
+      213: 8581465605492577114
+    second: WeaponUpgradeIcon_54
+  - first:
+      213: -1088991188088945762
+    second: WeaponUpgradeIcon_55
+  - first:
+      213: 1221605746051918090
+    second: WeaponUpgradeIcon_56
+  - first:
+      213: -6694457940985415245
+    second: WeaponUpgradeIcon_57
+  - first:
+      213: 1331348148861377193
+    second: WeaponUpgradeIcon_58
+  - first:
+      213: 8215741800599946059
+    second: WeaponUpgradeIcon_59
+  - first:
+      213: 5201450585809917577
+    second: WeaponUpgradeIcon_60
+  - first:
+      213: 6937177863000136741
+    second: WeaponUpgradeIcon_61
+  - first:
+      213: -4961388530313035314
+    second: WeaponUpgradeIcon_62
+  - first:
+      213: 4148757818801577253
+    second: WeaponUpgradeIcon_63
+  - first:
+      213: 6966187342533202841
+    second: WeaponUpgradeIcon_64
+  - first:
+      213: -1560013963985840633
+    second: WeaponUpgradeIcon_65
+  - first:
+      213: -5312557271829134129
+    second: WeaponUpgradeIcon_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 801
+        width: 678
+        height: 678
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02cd0654a3ec05e0800000000000000
+      internalID: -1941927044345642482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_38
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 797
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1b21c1e9df3ad10800000000000000
+      internalID: 2135829503821394412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_41
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 797
+        width: 730
+        height: 730
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f5a241bcbd285a0800000000000000
+      internalID: -6520407645215891604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_59
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 0
+        width: 950
+        height: 795
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43861783ad240270800000000000000
+      internalID: 8215741800599946059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_62
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 68
+        width: 661
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec18ef11b6b952bb0800000000000000
+      internalID: -4961388530313035314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WeaponUpgradeIcon_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 0
+        width: 840
+        height: 801
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ddac05149539930800000000000000
+      internalID: 4148757818801577253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d690e5f8c58251c4b900034fa3b11f92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WeaponUpgradeIcon_0: -1941927044345642482
+      WeaponUpgradeIcon_1: 4009817553214810237
+      WeaponUpgradeIcon_10: 2717889654654251480
+      WeaponUpgradeIcon_11: -6979083829556491630
+      WeaponUpgradeIcon_12: 5881267067876608981
+      WeaponUpgradeIcon_13: 1874382410182986871
+      WeaponUpgradeIcon_14: 781663870220121634
+      WeaponUpgradeIcon_15: 702991483388274204
+      WeaponUpgradeIcon_16: 5763741052329502121
+      WeaponUpgradeIcon_17: -3078696646934016004
+      WeaponUpgradeIcon_18: -758738696621116217
+      WeaponUpgradeIcon_19: 5877353552614533498
+      WeaponUpgradeIcon_2: -25604688166616983
+      WeaponUpgradeIcon_20: 5495909055980525657
+      WeaponUpgradeIcon_21: -363651335529361867
+      WeaponUpgradeIcon_22: -538851543248810730
+      WeaponUpgradeIcon_23: -7839812552670231857
+      WeaponUpgradeIcon_24: 4594198052612990598
+      WeaponUpgradeIcon_25: -3473937160197036940
+      WeaponUpgradeIcon_26: 2521038874367166137
+      WeaponUpgradeIcon_27: -7197886221727887566
+      WeaponUpgradeIcon_28: -8101250084362107816
+      WeaponUpgradeIcon_29: 7154334624513448308
+      WeaponUpgradeIcon_3: -2693086493624683426
+      WeaponUpgradeIcon_30: 2475454485146372662
+      WeaponUpgradeIcon_31: 328888371041062810
+      WeaponUpgradeIcon_32: 7333810098871282340
+      WeaponUpgradeIcon_33: -8901377717155712300
+      WeaponUpgradeIcon_34: -8123925055624246076
+      WeaponUpgradeIcon_35: -8993609976236399548
+      WeaponUpgradeIcon_36: -6343370642718054398
+      WeaponUpgradeIcon_37: -2882539947118200062
+      WeaponUpgradeIcon_38: 2135829503821394412
+      WeaponUpgradeIcon_39: -30892489538632928
+      WeaponUpgradeIcon_4: 4194151478828404119
+      WeaponUpgradeIcon_40: -3713910147317767292
+      WeaponUpgradeIcon_41: -6520407645215891604
+      WeaponUpgradeIcon_42: 7732336675898250386
+      WeaponUpgradeIcon_43: -444573184360604043
+      WeaponUpgradeIcon_44: 6268027582754565197
+      WeaponUpgradeIcon_45: 3469740399112948575
+      WeaponUpgradeIcon_46: -4907263851472730907
+      WeaponUpgradeIcon_47: -3516713970022048392
+      WeaponUpgradeIcon_48: -2589529510471775518
+      WeaponUpgradeIcon_49: 3719777299328341466
+      WeaponUpgradeIcon_5: -8910081993650801699
+      WeaponUpgradeIcon_50: -8037818352860673201
+      WeaponUpgradeIcon_51: -5092145021103499099
+      WeaponUpgradeIcon_52: -3332914803164964231
+      WeaponUpgradeIcon_53: -7174729741721498766
+      WeaponUpgradeIcon_54: 8581465605492577114
+      WeaponUpgradeIcon_55: -1088991188088945762
+      WeaponUpgradeIcon_56: 1221605746051918090
+      WeaponUpgradeIcon_57: -6694457940985415245
+      WeaponUpgradeIcon_58: 1331348148861377193
+      WeaponUpgradeIcon_59: 8215741800599946059
+      WeaponUpgradeIcon_6: -7658666484921243983
+      WeaponUpgradeIcon_60: 5201450585809917577
+      WeaponUpgradeIcon_61: 6937177863000136741
+      WeaponUpgradeIcon_62: -4961388530313035314
+      WeaponUpgradeIcon_63: 4148757818801577253
+      WeaponUpgradeIcon_64: 6966187342533202841
+      WeaponUpgradeIcon_65: -1560013963985840633
+      WeaponUpgradeIcon_66: -5312557271829134129
+      WeaponUpgradeIcon_7: -463162641550499113
+      WeaponUpgradeIcon_8: 1809456915696975511
+      WeaponUpgradeIcon_9: 6757381404673898031
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

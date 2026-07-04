@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91dd77c4a988c4f896385108ef7b57, type: 3}
+  m_Name: Shotgun_ProjectileUpgrade
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgrade
+  upgradeName: "\u0110\u1EA1n Gh\xE9m T\u0103ng C\u01B0\u1EDDng (Shotgun)"
+  description: "T\u0103ng th\xEAm 1 tia \u0111\u1EA1n cho s\xFAng Shotgun khi b\u1EAFn."
+  icon: {fileID: -6520407645215891604, guid: 03bc3c2bd120273459cbbb55c29f154a, type: 3}
+  changes:
+  - type: 6
+    modType: 0
+    value: 1
+  newElement: 0
+  newWeapon: {fileID: 0}
+  requiredWeapon: {fileID: 11400000, guid: c79ecdfcc1c3fa04986ae1a5c5c42f82, type: 2}
+  maxLevel: 3

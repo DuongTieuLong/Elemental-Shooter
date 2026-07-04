@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4441a62fdc27bea4989d8a87b56dfdcd, type: 3}
+  m_Name: PistolWeaponData
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: 'Pistol '
+  weaponIcon: {fileID: 4319395737909131107, guid: c933e62f559dd204f8945f1e22ede45c, type: 3}
+  baseDamage: 16
+  baseAttackSpeed: 1
+  maxDamage: 200
+  maxAttackSpeed: 3
+  maxProjectileCount: 1
+  cameraShakeIntensity: 0.05
+  strategyType: 0
+  attackData:
+    rid: 3724446639518122298
+  gripStyle: 0
+  leftHandGripOffset: {x: 0, y: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3724446639518122298
+      type: {class: RangedStrategyData, ns: , asm: Assembly-CSharp}
+      data:
+        projectilePrefab: {fileID: 2157053555950815158, guid: 2b64a7528aad9764c828803eb409f692, type: 3}
+        baseProjectileCount: 1
+        bulletSpread: 2
+        bulletConfig: {fileID: 11400000, guid: a86c5384177d5a24b972aa14aa5555fe, type: 2}
+        recoilForce: 0.2
+        recoilRecovery: 8
+        shootSFX: {fileID: 8300000, guid: d706e4c51ee1af44891d868c2623bcd9, type: 3}

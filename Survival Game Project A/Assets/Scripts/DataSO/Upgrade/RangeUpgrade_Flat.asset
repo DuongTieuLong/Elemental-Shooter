@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91dd77c4a988c4f896385108ef7b57, type: 3}
+  m_Name: RangeUpgrade_Flat
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgrade
+  upgradeName: Mắt Ưng Tinh Anh
+  description: Tăng tầm bắn (tầm đánh) thêm một lượng cố định.
+  icon: {fileID: 0}
+  changes:
+  - type: 5
+    modType: 0
+    value: 2
+  newElement: 0
+  newWeapon: {fileID: 0}
+  requiredWeapon: {fileID: 0}

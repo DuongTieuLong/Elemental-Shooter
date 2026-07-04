@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56221caa69b0686458120d7d5e50224c, type: 3}
+  m_Name: Shockwave Reaction
+  m_EditorClassIdentifier: Assembly-CSharp::ShockwaveReaction
+  radius: 5
+  maxSpreadAngle: 90
+  knockbackForce: 2.2
+  stunDuration: 1.5
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  reactionElement: 2
+  shockwaveVfxPrefab: {fileID: 8929789978831689854, guid: 6811484ec29f2b6468e76c0e4f25b660, type: 3}

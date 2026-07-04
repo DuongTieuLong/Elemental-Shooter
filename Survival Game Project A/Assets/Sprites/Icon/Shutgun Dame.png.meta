@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 0aa9d6f355d034040b12b4cf1169cc9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6161068230089056393
+    second: Shutgun Dame_0
+  - first:
+      213: 5710810326544327276
+    second: Shutgun Dame_1
+  - first:
+      213: -8281417514937602126
+    second: Shutgun Dame_2
+  - first:
+      213: -6028373445294308475
+    second: Shutgun Dame_3
+  - first:
+      213: -7893466098994184342
+    second: Shutgun Dame_4
+  - first:
+      213: -5287505351251897215
+    second: Shutgun Dame_5
+  - first:
+      213: 4659646649627634740
+    second: Shutgun Dame_6
+  - first:
+      213: 6193865679832768700
+    second: Shutgun Dame_7
+  - first:
+      213: 3570399672979413781
+    second: Shutgun Dame_8
+  - first:
+      213: 6145317367395522816
+    second: Shutgun Dame_9
+  - first:
+      213: -194004098962524549
+    second: Shutgun Dame_10
+  - first:
+      213: -1850271515523125381
+    second: Shutgun Dame_11
+  - first:
+      213: 3581904916684955267
+    second: Shutgun Dame_12
+  - first:
+      213: -2269953787639597084
+    second: Shutgun Dame_13
+  - first:
+      213: -8355344340491437776
+    second: Shutgun Dame_14
+  - first:
+      213: 2264639410690382814
+    second: Shutgun Dame_15
+  - first:
+      213: -3359366983843771237
+    second: Shutgun Dame_16
+  - first:
+      213: 1251393358212806762
+    second: Shutgun Dame_17
+  - first:
+      213: -7921331662799824804
+    second: Shutgun Dame_18
+  - first:
+      213: -4854900796989533810
+    second: Shutgun Dame_19
+  - first:
+      213: -8918542097412396168
+    second: Shutgun Dame_20
+  - first:
+      213: 3554862579564406257
+    second: Shutgun Dame_21
+  - first:
+      213: 9154990257922904790
+    second: Shutgun Dame_22
+  - first:
+      213: -1022262073647853304
+    second: Shutgun Dame_23
+  - first:
+      213: -4799118813318154672
+    second: Shutgun Dame_24
+  - first:
+      213: -3169520208794675327
+    second: Shutgun Dame_25
+  - first:
+      213: 591242600936408661
+    second: Shutgun Dame_26
+  - first:
+      213: -4892808804973283328
+    second: Shutgun Dame_27
+  - first:
+      213: 3928394896159564334
+    second: Shutgun Dame_28
+  - first:
+      213: 6133128789837029133
+    second: Shutgun Dame_29
+  - first:
+      213: -8657865817385494204
+    second: Shutgun Dame_30
+  - first:
+      213: 2479664438746675216
+    second: Shutgun Dame_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shutgun Dame_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 161
+        width: 700
+        height: 700
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d218a5622f0d0f70800000000000000
+      internalID: 9154990257922904790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5d883747ac6cd1942874de320bb58139
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shutgun Dame_0: 6161068230089056393
+      Shutgun Dame_1: 5710810326544327276
+      Shutgun Dame_10: -194004098962524549
+      Shutgun Dame_11: -1850271515523125381
+      Shutgun Dame_12: 3581904916684955267
+      Shutgun Dame_13: -2269953787639597084
+      Shutgun Dame_14: -8355344340491437776
+      Shutgun Dame_15: 2264639410690382814
+      Shutgun Dame_16: -3359366983843771237
+      Shutgun Dame_17: 1251393358212806762
+      Shutgun Dame_18: -7921331662799824804
+      Shutgun Dame_19: -4854900796989533810
+      Shutgun Dame_2: -8281417514937602126
+      Shutgun Dame_20: -8918542097412396168
+      Shutgun Dame_21: 3554862579564406257
+      Shutgun Dame_22: 9154990257922904790
+      Shutgun Dame_23: -1022262073647853304
+      Shutgun Dame_24: -4799118813318154672
+      Shutgun Dame_25: -3169520208794675327
+      Shutgun Dame_26: 591242600936408661
+      Shutgun Dame_27: -4892808804973283328
+      Shutgun Dame_28: 3928394896159564334
+      Shutgun Dame_29: 6133128789837029133
+      Shutgun Dame_3: -6028373445294308475
+      Shutgun Dame_30: -8657865817385494204
+      Shutgun Dame_31: 2479664438746675216
+      Shutgun Dame_4: -7893466098994184342
+      Shutgun Dame_5: -5287505351251897215
+      Shutgun Dame_6: 4659646649627634740
+      Shutgun Dame_7: 6193865679832768700
+      Shutgun Dame_8: 3570399672979413781
+      Shutgun Dame_9: 6145317367395522816
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

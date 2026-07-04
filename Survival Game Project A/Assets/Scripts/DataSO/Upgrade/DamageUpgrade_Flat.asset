@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91dd77c4a988c4f896385108ef7b57, type: 3}
+  m_Name: DamageUpgrade_Flat
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgrade
+  upgradeName: "S\u1EE9c M\u1EA1nh T\u0103ng C\u01B0\u1EDDng"
+  description: "T\u0103ng v\u0129nh vi\u1EC5n s\xE1t th\u01B0\u01A1ng c\u01A1 b\u1EA3n
+    cho nh\xE2n v\u1EADt."
+  icon: {fileID: 0}
+  changes:
+  - type: 2
+    modType: 0
+    value: 3
+  newElement: 0
+  newWeapon: {fileID: 0}
+  requiredWeapon: {fileID: 0}
+  maxLevel: 10

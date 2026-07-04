@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 5b701589382657f45ab6ddb2031b0fcd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6648410482151699963
+    second: NewEnviroment 2_0
+  - first:
+      213: -7210202121319304117
+    second: NewEnviroment 2_1
+  - first:
+      213: 8158215087046275063
+    second: NewEnviroment 2_2
+  - first:
+      213: -8110064070265216286
+    second: NewEnviroment 2_3
+  - first:
+      213: -9215466466288768484
+    second: NewEnviroment 2_4
+  - first:
+      213: -4363862699885252430
+    second: NewEnviroment 2_5
+  - first:
+      213: -1773031859880098647
+    second: NewEnviroment 2_6
+  - first:
+      213: 3020089106935306865
+    second: NewEnviroment 2_7
+  - first:
+      213: -2878726050785023406
+    second: NewEnviroment 2_8
+  - first:
+      213: -3064214140104629858
+    second: NewEnviroment 2_9
+  - first:
+      213: -8720471626514925722
+    second: NewEnviroment 2_10
+  - first:
+      213: -486481536887559288
+    second: NewEnviroment 2_11
+  - first:
+      213: 1561531833240220136
+    second: NewEnviroment 2_12
+  - first:
+      213: 6713519037042630911
+    second: NewEnviroment 2_13
+  - first:
+      213: -1184411717141607477
+    second: NewEnviroment 2_14
+  - first:
+      213: 8128466533489874098
+    second: NewEnviroment 2_15
+  - first:
+      213: 4897987366724560675
+    second: NewEnviroment 2_16
+  - first:
+      213: -2761759708138298665
+    second: NewEnviroment 2_17
+  - first:
+      213: -4949178736845410704
+    second: NewEnviroment 2_18
+  - first:
+      213: -8591315911873953767
+    second: NewEnviroment 2_19
+  - first:
+      213: -5760539326249289389
+    second: NewEnviroment 2_20
+  - first:
+      213: 844561635635018417
+    second: NewEnviroment 2_21
+  - first:
+      213: -3922767815896103215
+    second: NewEnviroment 2_22
+  - first:
+      213: 2612956260559827386
+    second: NewEnviroment 2_23
+  - first:
+      213: -2595473686286991640
+    second: NewEnviroment 2_24
+  - first:
+      213: 1695035143254258565
+    second: NewEnviroment 2_25
+  - first:
+      213: 7978987689889344904
+    second: NewEnviroment 2_26
+  - first:
+      213: -1452672646965220089
+    second: NewEnviroment 2_27
+  - first:
+      213: 8047209895462663134
+    second: NewEnviroment 2_28
+  - first:
+      213: 955068616593808569
+    second: NewEnviroment 2_29
+  - first:
+      213: -4462012008107497
+    second: NewEnviroment 2_30
+  - first:
+      213: 47414113430164900
+    second: NewEnviroment 2_31
+  - first:
+      213: 382903778547985663
+    second: NewEnviroment 2_32
+  - first:
+      213: 4063704147657439574
+    second: NewEnviroment 2_33
+  - first:
+      213: -5339520236210669459
+    second: NewEnviroment 2_34
+  - first:
+      213: -4544766005729926287
+    second: NewEnviroment 2_35
+  - first:
+      213: 3711531175213960565
+    second: NewEnviroment 2_36
+  - first:
+      213: -2915053548312172695
+    second: NewEnviroment 2_37
+  - first:
+      213: 610952986429041955
+    second: NewEnviroment 2_38
+  - first:
+      213: 4912756621888199055
+    second: NewEnviroment 2_39
+  - first:
+      213: -4483735206070061620
+    second: NewEnviroment 2_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NewEnviroment 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1921
+        width: 77
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5b2a5db16e34c50800000000000000
+      internalID: 6648410482151699963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1919
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44bef73f5730fb90800000000000000
+      internalID: -7210202121319304117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1920
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff20a8c56dc73170800000000000000
+      internalID: 8158215087046275063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1925
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2ee2272b3437f80800000000000000
+      internalID: -8110064070265216286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_4
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1921
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a655513161c1080800000000000000
+      internalID: -9215466466288768484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1927
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b033c4cef17073c0800000000000000
+      internalID: -4363862699885252430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1684
+        width: 183
+        height: 258
+      alignment: 9
+      pivot: {x: 0.48603928, y: 0.39107212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a48568daece467e0800000000000000
+      internalID: -1773031859880098647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1696
+        width: 188
+        height: 350
+      alignment: 9
+      pivot: {x: 0.4864106, y: 0.29196113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ad7e8aa0389e920800000000000000
+      internalID: 3020089106935306865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_8
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1851
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aab41b8e5bc08d0800000000000000
+      internalID: -2878726050785023406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_9
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1850
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91a5577979b975d0800000000000000
+      internalID: -3064214140104629858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_10
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1699
+        width: 153
+        height: 207
+      alignment: 9
+      pivot: {x: 0.5000008, y: 0.38274822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66774bb3249aaf680800000000000000
+      internalID: -8720471626514925722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1568
+        width: 125
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88be704ae9baf39f0800000000000000
+      internalID: -486481536887559288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_12
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1565
+        width: 117
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e17fb1ddecaba510800000000000000
+      internalID: 1561531833240220136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1565
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0afb39ef53b2d50800000000000000
+      internalID: 6713519037042630911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1570
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbc6fb81df109fe0800000000000000
+      internalID: -1184411717141607477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_15
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1563
+        width: 88
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b49059ee3d1ec070800000000000000
+      internalID: 8128466533489874098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_16
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1557
+        width: 120
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327e7f33f8529f340800000000000000
+      internalID: 4897987366724560675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_17
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1385
+        width: 189
+        height: 279
+      alignment: 9
+      pivot: {x: 0.4864825, y: 0.36264202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d22e698d224ca9d0800000000000000
+      internalID: -2761759708138298665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_18
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1385
+        width: 197
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea964292cf05bb0800000000000000
+      internalID: -4949178736845410704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1172
+        width: 533
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910879762b385c880800000000000000
+      internalID: -8591315911873953767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_20
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1423
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3593e30e0047e00b0800000000000000
+      internalID: -5760539326249289389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_21
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 1425
+        width: 112
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bab2fa355c78bb00800000000000000
+      internalID: 844561635635018417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_22
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1374
+        width: 177
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d68d2584778f89c0800000000000000
+      internalID: -3922767815896103215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_23
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1369
+        width: 257
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab13d4cffd5134420800000000000000
+      internalID: 2612956260559827386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_24
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1240
+        width: 201
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee7df80f660bfbd0800000000000000
+      internalID: -2595473686286991640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_25
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1150
+        width: 203
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583397b6b79f58710800000000000000
+      internalID: 1695035143254258565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_26
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1144
+        width: 177
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88da11b870f0bbe60800000000000000
+      internalID: 7978987689889344904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_27
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 1145
+        width: 159
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d26b69ce117dbe0800000000000000
+      internalID: -1452672646965220089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_28
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 1140
+        width: 233
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed37f0493ce6daf60800000000000000
+      internalID: 8047209895462663134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_29
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1136
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc923cb8d5114d00800000000000000
+      internalID: 955068616593808569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 938
+        width: 191
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712f54fd2d520fff0800000000000000
+      internalID: -4462012008107497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_31
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 925
+        width: 129
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a5585c82e278a000800000000000000
+      internalID: 47414113430164900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_32
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 945
+        width: 88
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffce18735f8505500800000000000000
+      internalID: 382903778547985663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_33
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 950
+        width: 75
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6593761546d256830800000000000000
+      internalID: 4063704147657439574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_34
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 951
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6837a992a636e5b0800000000000000
+      internalID: -5339520236210669459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_35
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 955
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1736231a56fbde0c0800000000000000
+      internalID: -4544766005729926287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_36
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 825
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d8a6770f1028330800000000000000
+      internalID: 3711531175213960565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_37
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 873
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9676c9f0e36ab87d0800000000000000
+      internalID: -2915053548312172695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_38
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 833
+        width: 105
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d2192118a8a7800800000000000000
+      internalID: 610952986429041955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_39
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 832
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8918936e1e9d2440800000000000000
+      internalID: 4912756621888199055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NewEnviroment 2_40
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 616
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5f74ff59296c1c0800000000000000
+      internalID: -4483735206070061620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 21862fedc88251f44806e1adea2b54d4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NewEnviroment 2_0: 6648410482151699963
+      NewEnviroment 2_1: -7210202121319304117
+      NewEnviroment 2_10: -8720471626514925722
+      NewEnviroment 2_11: -486481536887559288
+      NewEnviroment 2_12: 1561531833240220136
+      NewEnviroment 2_13: 6713519037042630911
+      NewEnviroment 2_14: -1184411717141607477
+      NewEnviroment 2_15: 8128466533489874098
+      NewEnviroment 2_16: 4897987366724560675
+      NewEnviroment 2_17: -2761759708138298665
+      NewEnviroment 2_18: -4949178736845410704
+      NewEnviroment 2_19: -8591315911873953767
+      NewEnviroment 2_2: 8158215087046275063
+      NewEnviroment 2_20: -5760539326249289389
+      NewEnviroment 2_21: 844561635635018417
+      NewEnviroment 2_22: -3922767815896103215
+      NewEnviroment 2_23: 2612956260559827386
+      NewEnviroment 2_24: -2595473686286991640
+      NewEnviroment 2_25: 1695035143254258565
+      NewEnviroment 2_26: 7978987689889344904
+      NewEnviroment 2_27: -1452672646965220089
+      NewEnviroment 2_28: 8047209895462663134
+      NewEnviroment 2_29: 955068616593808569
+      NewEnviroment 2_3: -8110064070265216286
+      NewEnviroment 2_30: -4462012008107497
+      NewEnviroment 2_31: 47414113430164900
+      NewEnviroment 2_32: 382903778547985663
+      NewEnviroment 2_33: 4063704147657439574
+      NewEnviroment 2_34: -5339520236210669459
+      NewEnviroment 2_35: -4544766005729926287
+      NewEnviroment 2_36: 3711531175213960565
+      NewEnviroment 2_37: -2915053548312172695
+      NewEnviroment 2_38: 610952986429041955
+      NewEnviroment 2_39: 4912756621888199055
+      NewEnviroment 2_4: -9215466466288768484
+      NewEnviroment 2_40: -4483735206070061620
+      NewEnviroment 2_5: -4363862699885252430
+      NewEnviroment 2_6: -1773031859880098647
+      NewEnviroment 2_7: 3020089106935306865
+      NewEnviroment 2_8: -2878726050785023406
+      NewEnviroment 2_9: -3064214140104629858
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

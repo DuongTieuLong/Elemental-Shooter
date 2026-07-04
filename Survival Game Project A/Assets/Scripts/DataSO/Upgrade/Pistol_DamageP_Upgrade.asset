@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a91dd77c4a988c4f896385108ef7b57, type: 3}
+  m_Name: Pistol_DamageP_Upgrade
+  m_EditorClassIdentifier: Assembly-CSharp::CardUpgrade
+  upgradeName: Pistol Precent Damage
+  description: 
+  icon: {fileID: -1941927044345642482, guid: 03bc3c2bd120273459cbbb55c29f154a, type: 3}
+  changes:
+  - type: 2
+    modType: 1
+    value: 0.1
+  newElement: 0
+  newWeapon: {fileID: 0}
+  requiredWeapon: {fileID: 11400000, guid: 3ef9cb6c591255c46b8ae1c254347762, type: 2}
+  maxLevel: 5

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2021bdbc4b6a3b24ba24ba5eede7d5d3, type: 3}
+  m_Name: LightSaberConfigData
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeConfigData
+  elementVisuals:
+  - element: 0
+    slashVFXPrefab: {fileID: 0}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 2ee4baabcc8f23949b42b688463e674d, type: 3}
+    customHitSFX: {fileID: 0}
+  - element: 1
+    slashVFXPrefab: {fileID: 0}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 175468b433a208540ac9d00c50d88c9b, type: 3}
+    customHitSFX: {fileID: 0}
+  - element: 2
+    slashVFXPrefab: {fileID: 0}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 379ce99a64127994494a8201984fd9d4, type: 3}
+    customHitSFX: {fileID: 0}
+  - element: 4
+    slashVFXPrefab: {fileID: 0}
+    hitVFXPrefab: {fileID: 8480774164882139964, guid: 15a60b915aeee4243b03f5e60280b5bf, type: 3}
+    customHitSFX: {fileID: 0}
+  defaultSlashVFXPrefab: {fileID: 0}
+  defaultHitSFX: {fileID: 0}

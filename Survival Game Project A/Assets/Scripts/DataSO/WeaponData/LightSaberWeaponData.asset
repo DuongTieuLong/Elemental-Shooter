@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4441a62fdc27bea4989d8a87b56dfdcd, type: 3}
+  m_Name: LightSaberWeaponData
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  weaponName: Light Saber
+  weaponIcon: {fileID: 454523880540619721, guid: 787e8f75aa04f2941a0190362b149d68, type: 3}
+  baseDamage: 12
+  baseAttackSpeed: 0.5
+  maxDamage: 200
+  maxAttackSpeed: 5
+  maxProjectileCount: 0
+  cameraShakeIntensity: 0.1
+  strategyType: 3
+  attackData:
+    rid: 3724446639518122297
+  gripStyle: 2
+  leftHandGripOffset: {x: 0, y: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: 3724446639518122297
+      type: {class: MeleeStrategyData, ns: , asm: Assembly-CSharp}
+      data:
+        meleeAttackRange: 3
+        swingArcAngle: 120
+        dashForwardDistance: 10
+        meleeConfig: {fileID: 11400000, guid: cea351a199b9432478c19c566bfdeb1f, type: 2}

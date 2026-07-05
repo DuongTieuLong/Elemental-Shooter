@@ -62,7 +62,8 @@ Itch.io: https://kanalis.itch.io/elemental-shooter
 - **Rendering Pipeline:** URP (Universal Render Pipeline)
 
 ## 📝 To-Do / Future Updates
-- [ ] Add Boss Encounters.
+- [ ] Add Base.
+- [ ] Add more Characters.
 - [ ] Implement varied biomes and maps.
 - [ ] Add more weapon types and elemental combos.
 

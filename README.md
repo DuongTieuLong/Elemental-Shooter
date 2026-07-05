@@ -49,8 +49,8 @@ This project was built focusing on best practices in Game Programming:
    ```bash
    git clone https://github.com/DuongTieuLong/Elemental-Shooter.git
    ```
-3. Open the project in Unity Hub (`Survival Game Project A` folder).
-4. Open the main scene located in `Assets/Scenes/`.
+3. Open the project in Unity Hub (`ElementalShooter` folder).
+4. Open the main scene located in `Assets/Scenes/MainMenu`.
 5. Press **Play** in the editor.
    
 ## Install play demo:

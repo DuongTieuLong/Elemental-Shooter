@@ -36,7 +36,7 @@ public class UpgradeUI : MonoBehaviour
 
     private void Start()
     {
-        RefershPlayerData();
+       // RefershPlayerData();
     }
 
     public void ShowUpgradePanel(List<CardUpgrade> cardsUpgrade)
@@ -101,12 +101,12 @@ public class UpgradeUI : MonoBehaviour
 
             // Tìm vũ khí hiện có để show thêm chỉ số vũ khí
             Weapon activeWeapon = FindAnyObjectByType<Weapon>();
-            if (activeWeapon != null && activeWeapon.data != null)
+            if (activeWeapon != null && activeWeapon.CurrentData != null)
             {
-                sb.AppendLine($"\n<b><size=115%><color=#E0E0E0>Vũ khí: {activeWeapon.data.weaponName}</color></size></b>");
-                sb.AppendLine($"Sát thương VK: <color=#FF3333>{activeWeapon.GetFinalDamage().ToString("F2")}</color>");
-                sb.AppendLine($"Tốc bắn VK: <color=#FFFF33>{activeWeapon.GetFinalAttackSpeed().ToString("F2")}</color>");
-                sb.AppendLine($"Tia đạn: <color=#33FFFF>{activeWeapon.GetFinalProjectileCount().ToString("F2")}</color>");
+                sb.AppendLine($"\n<b><size=115%><color=#E0E0E0>Vũ khí: {activeWeapon.CurrentData.weaponName}</color></size></b>");
+                sb.AppendLine($"Sát thương VK: <color=#FF3333>{activeWeapon.weaponStats.GetFinalDamage().ToString("F2")}</color>");
+                sb.AppendLine($"Tốc bắn VK: <color=#FFFF33>{activeWeapon.weaponStats.GetFinalAttackSpeed().ToString("F2")}</color>");
+                sb.AppendLine($"Tia đạn: <color=#33FFFF>{activeWeapon.weaponStats.GetFinalProjectileCount().ToString("F2")}</color>");
             }
 
             playerStatsText.text = sb.ToString();

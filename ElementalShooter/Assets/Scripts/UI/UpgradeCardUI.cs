@@ -89,25 +89,25 @@ public class UpgradeCardUI : MonoBehaviour
                     valueStr = $"{sign}{change.value}";
                 }
 
-                if (data.requiredWeapon != null && activeWeapon != null && activeWeapon.data == data.requiredWeapon)
+                if (data.requiredWeapon != null && activeWeapon != null && activeWeapon.CurrentData == data.requiredWeapon)
                 {
                     // Nâng cấp cho vũ khí cụ thể đang trang bị
                     if (change.type == StatType.Damage)
                     {
-                        float cur = activeWeapon.GetFinalDamage();
-                        float prev = activeWeapon.GetPreviewDamage(change.value, change.modType);
+                        float cur = activeWeapon.weaponStats.GetFinalDamage();
+                        float prev = activeWeapon.weaponStats.GetPreviewDamage(change.value, change.modType);
                         sb.AppendLine($"{statLabel}: {cur:F1} -> <color=#00FF00>{prev:F1}</color> ({valueStr})");
                     }
                     else if (change.type == StatType.AttackSpeed)
                     {
-                        float cur = activeWeapon.GetFinalAttackSpeed();
-                        float prev = activeWeapon.GetPreviewAttackSpeed(change.value, change.modType);
+                        float cur = activeWeapon.weaponStats.GetFinalAttackSpeed();
+                        float prev = activeWeapon.weaponStats.GetPreviewAttackSpeed(change.value, change.modType);
                         sb.AppendLine($"{statLabel}: {cur:F1} -> <color=#00FF00>{prev:F1}</color> ({valueStr})");
                     }
                     else if (change.type == StatType.ProjectileCount)
                     {
-                        int cur = activeWeapon.GetFinalProjectileCount();
-                        int prev = activeWeapon.GetPreviewProjectileCount(change.value);
+                        int cur = activeWeapon.weaponStats.GetFinalProjectileCount();
+                        int prev = activeWeapon.weaponStats.GetPreviewProjectileCount(change.value);
                         sb.AppendLine($"{statLabel}: {cur} -> <color=#00FF00>{prev}</color> ({valueStr})");
                     }
                     else

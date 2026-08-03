@@ -28,7 +28,7 @@ public class MeleeSlashStrategy : IFireStrategy
             _comboIndex = 0;
         }
 
-        float weaponDame = weapon != null ? weapon.GetFinalDamage() : 0;
+        float weaponDame = weapon != null ? weapon.weaponStats.GetFinalDamage() : 0;
         float playerDame = stats.GetValue(StatType.Damage);
 
         Vector2 aimDir = weaponAim.GetAimDirection();
@@ -40,7 +40,7 @@ public class MeleeSlashStrategy : IFireStrategy
         // rung cam
         if (CameraShakeManager.Instance != null)
         {
-            float finalShake = weapon.data.cameraShakeIntensity * weapon.CurrentRecoilMultiplier;
+            float finalShake = weapon.CurrentData.cameraShakeIntensity * weapon.spreadCalculator.GetCurrentRecoilMultiplier();
             CameraShakeManager.Instance.ShakeCamera(finalShake);
         }
         //am thanh
@@ -147,12 +147,8 @@ public class MeleeSlashStrategy : IFireStrategy
                 slashVisual.transform.localScale = new Vector3(absX * scaleMultiplier, targetY * scaleMultiplier, visualScale.z);
             }
 
-            var deactivator = slashVisual.GetComponent<SimpleDeactivator>();
-            if (deactivator == null)
-            {
-                deactivator = slashVisual.AddComponent<SimpleDeactivator>();
-            }
-            deactivator.delay = duration + 0.1f;
+            var deactivator = slashVisual.GetComponent<ParticlePoolReturn>();
+            deactivator.SetBasePrefabs(slashPrefab);
         }
 
         // 6. Phát hiện và gây sát thương các mục tiêu trong hình quạt
@@ -209,12 +205,12 @@ public class MeleeSlashStrategy : IFireStrategy
         }
 
         // 7. Thiết lập thời gian hồi chiêu tùy biến cho nhịp Combo để tránh spam
-        float attackSpeed = weapon.GetFinalAttackSpeed();
+        float attackSpeed = weapon.weaponStats.GetFinalAttackSpeed();
         float comboCooldown = 0.25f / (attackSpeed > 0 ? attackSpeed : 1f);
         float recoveryCooldown = 0.65f / (attackSpeed > 0 ? attackSpeed : 1f);
 
         float nextCooldown = (_comboIndex == 2) ? recoveryCooldown : comboCooldown;
-        weapon.SetFireTimer(nextCooldown);
+       // weapon.SetFireTimer(nextCooldown);
 
         // Tăng combo step và lưu thời gian chém
         _comboIndex = (_comboIndex + 1) % 3;
@@ -224,23 +220,3 @@ public class MeleeSlashStrategy : IFireStrategy
     }
 }
 
-// Lớp phụ trợ để tự động trả hiệu ứng visual chém về Pool
-public class SimpleDeactivator : MonoBehaviour
-{
-    public float delay = 0.3f;
-    private float timer;
-
-    void OnEnable()
-    {
-        timer = delay;
-    }
-
-    void Update()
-    {
-        timer -= Time.deltaTime;
-        if (timer <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-    }
-}

@@ -51,7 +51,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     private void NotifyUI()
     {
-        Debug.Log($"Current Health: {currentHealth} / {MaxHealth}");
+       // Debug.Log($"Current Health: {currentHealth} / {MaxHealth}");
         GameEvents.RaisePlayerHealthChanged(currentHealth, MaxHealth);
     }
 

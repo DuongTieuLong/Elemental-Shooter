@@ -18,10 +18,10 @@ public class BurstFireStrategy : IFireStrategy
     {
         if (_rangedData == null) return;
 
-        float weaponDame = weapon.GetFinalDamage();
+        float weaponDame = weapon.weaponStats.GetFinalDamage();
         float playerDame = stats.GetValue(StatType.Damage);
         float finalDamage = weaponDame + playerDame;
-        int bulletCount = weapon.GetFinalProjectileCount();
+        int bulletCount = weapon.weaponStats.GetFinalProjectileCount();
 
         BulletConfigData activeConfig = _rangedData.bulletConfig;
 
@@ -35,28 +35,17 @@ public class BurstFireStrategy : IFireStrategy
         WaitForSeconds wait = new WaitForSeconds(delayBetweenShots);
 
         // Giảm lực rung cho mỗi viên đạn lẻ trong loạt Burst để tránh chóng mặt
-        float baseShake = weapon.data.cameraShakeIntensity * 0.5f;
+        float baseShake = weapon.CurrentData.cameraShakeIntensity * 0.5f;
+        float recoilMultiplier = weapon.spreadCalculator.GetCurrentRecoilMultiplier();
 
         for (int i = 0; i < bulletCount; i++)
         {
-            // CHỐT AN TOÀN: Ngắt ngay lập tức nếu súng bị cất đi hoặc bị hủy
-            if (weapon == null || !weapon.gameObject.activeInHierarchy) break;
-
-            if (CameraShakeManager.Instance != null)
-            {
-                float finalShake = baseShake * weapon.CurrentRecoilMultiplier;
-                CameraShakeManager.Instance.ShakeCamera(finalShake);
-            }
-
-            Vector2 direction = weaponAim.GetAimDirectionWithSpread(weapon.GetCurrentSpread());
-
-            if (AudioManager.Instance != null)
-            {
-                AudioManager.Instance.PlaySFX(AudioManager.Instance.shootClip, muzzle.position, 0.65f, 0.15f);
-            }
+            Vector2 direction = weaponAim.GetAimDirectionWithSpread(weapon.spreadCalculator.GetCurrentSpread());
+            weapon.recoilController.ApplyRecoil(recoilMultiplier);
 
             WeaponFireHelper.SpawnElementBullet(muzzle, stats, bulletConfigData, direction, enemyLayer, finalDamage);
-            GameEvents.OnBulletFired?.Invoke(direction);
+
+            GameEvents.OnBulletFired?.Invoke(direction); 
 
             yield return wait;
         }

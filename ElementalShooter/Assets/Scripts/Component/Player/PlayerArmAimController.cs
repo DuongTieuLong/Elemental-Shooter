@@ -139,7 +139,7 @@ public class PlayerArmAimController : MonoBehaviour
         }
 
         // Nếu không cầm vũ khí, khôi phục lại vị trí và tỷ lệ cánh tay
-        if (_weapon == null || _weapon.data == null || _weaponAim == null)
+        if (_weapon == null || _weapon.CurrentData == null || _weaponAim == null)
         {
             RestoreOriginalTransforms();
             return;
@@ -147,7 +147,7 @@ public class PlayerArmAimController : MonoBehaviour
 
         if (leftArm == null || rightArm == null) return;
 
-        WeaponData data = _weapon.data;
+        WeaponData data = _weapon.CurrentData;
         Vector2 aimDir = _weaponAim.GetAimDirection();
 
         // Phòng tránh lỗi chia cho 0 nếu armLength bị đặt nhầm = 0 trong Inspector
@@ -316,11 +316,11 @@ public class PlayerArmAimController : MonoBehaviour
             }
 
             // Tính toán vị trí bám tay phụ động: trượt dọc theo thân súng để tránh bị duỗi quá dài khi hướng súng chỉ thẳng đứng
-            float maxGripX = _weapon.data.leftHandGripOffset.x;
+            float maxGripX = _weapon.CurrentData.leftHandGripOffset.x;
             float minGripX = maxGripX * minGripDistanceRatio;
             float dynamicGripX = Mathf.Lerp(minGripX, maxGripX, t);
 
-            Vector2 dynamicGripOffset = new Vector2(dynamicGripX, _weapon.data.leftHandGripOffset.y);
+            Vector2 dynamicGripOffset = new Vector2(dynamicGripX, _weapon.CurrentData.leftHandGripOffset.y);
 
             // Lấy vị trí bám tay trái trên súng trong local space của Body
             Vector3 leftGripLocal = gunPosLocal + Quaternion.Euler(0, 0, localAimAngle) * (Vector3)dynamicGripOffset;

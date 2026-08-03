@@ -17,10 +17,12 @@ public class SpreadFireStrategy : IFireStrategy
     {
         if (_rangedData == null) return;
 
+        float recoilMultiplier= weapon.spreadCalculator.GetCurrentRecoilMultiplier();
+
         // 1. Rung màn hình DUY NHẤT 1 LẦN cho cả chùm đạn
         if (CameraShakeManager.Instance != null)
         {
-            float finalShake = weapon.data.cameraShakeIntensity * weapon.CurrentRecoilMultiplier;
+            float finalShake = weapon.CurrentData.cameraShakeIntensity * recoilMultiplier;
             CameraShakeManager.Instance.ShakeCamera(finalShake);
         }
 
@@ -30,14 +32,20 @@ public class SpreadFireStrategy : IFireStrategy
             AudioManager.Instance.PlaySFX(AudioManager.Instance.shootClip, muzzle.position, 0.8f);
         }
 
+        //Recoil
+        weapon.recoilController.ApplyRecoil(recoilMultiplier);
+
         // 3. Logic sinh đạn tỏa
         BulletConfigData activeConfig = _rangedData.bulletConfig;
-        int bulletCount = weapon.GetFinalProjectileCount();
+        int bulletCount = weapon.weaponStats.GetFinalProjectileCount();
         float angleStep = 10f;
 
-        Vector2 baseDirection = weaponAim.GetAimDirectionWithSpread(weapon.GetCurrentSpread());
+        Vector2 baseDirection = weaponAim.GetAimDirectionWithSpread(weapon.spreadCalculator.GetCurrentSpread());
+
+      
+
         float baseAngle = Mathf.Atan2(baseDirection.y, baseDirection.x) * Mathf.Rad2Deg;
-        float finalDamage = weapon.GetFinalDamage() + stats.GetValue(StatType.Damage);
+        float finalDamage = weapon.weaponStats.GetFinalDamage() + stats.GetValue(StatType.Damage);
 
         GameEvents.OnBulletFired?.Invoke(baseDirection);
 

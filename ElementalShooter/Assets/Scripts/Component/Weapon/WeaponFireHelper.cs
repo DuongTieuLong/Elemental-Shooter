@@ -7,9 +7,7 @@ public static class WeaponFireHelper
     {
         var element = stats.GetRandomEffect();
         var visualConfig = bulletConfigData.GetVisualForElement(element);
-        GameObject activeBulletPrefab = visualConfig.customBulletPrefab != null ? visualConfig.customBulletPrefab : bulletConfigData.defaultBulletPrefab;
-       
-        Debug.Log(activeBulletPrefab);
+        GameObject activeBulletPrefab = visualConfig.customBulletPrefab != null ? visualConfig.customBulletPrefab : bulletConfigData.defaultBulletPrefab;  
 
         if (activeBulletPrefab == null) return;
 

@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             _animator.SetBool("IsBackward", isBackward);
         }
 
-        bool hasWeapon = _weapon != null && _weapon.data != null;
+        bool hasWeapon = _weapon != null && _weapon.CurrentData != null;
 
         if (hasWeapon)
         {

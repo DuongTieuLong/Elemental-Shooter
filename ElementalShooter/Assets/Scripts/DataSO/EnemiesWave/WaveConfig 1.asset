@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveConfig
   enemiesInWave:
   - enemyPrefab: {fileID: 4327452759653055757, guid: b16dc7cd0df414f48bafa1ea718b913f, type: 3}
-    count: 3526
+    count: 5
   - enemyPrefab: {fileID: 3938518544872264016, guid: 139283f8554ba074baeae9fe744f53cf, type: 3}
-    count: 10
+    count: 5
   - enemyPrefab: {fileID: 7890755797981348474, guid: 0dffd6cbf3c3d834bbc61609eb98511c, type: 3}
     count: 0
   - enemyPrefab: {fileID: 3931740353613026343, guid: 9e3f4cb56c5c73f4ea99358334bd2814, type: 3}
     count: 0
-  spawnInterval: 0.01
+  spawnInterval: 4
   restTime: 15
   waveType: 0

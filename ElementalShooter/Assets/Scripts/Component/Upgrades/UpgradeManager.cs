@@ -100,7 +100,9 @@ public class UpgradeManager : MonoBehaviour
             activeWeapon = FindAnyObjectByType<Weapon>();
         }
 
-        WeaponData equippedWeaponData = activeWeapon != null ? activeWeapon.data : null;
+        WeaponData equippedWeaponData = activeWeapon != null ? activeWeapon.CurrentData : null;
+
+        Debug.Log($"Equipped Weapon: {(equippedWeaponData != null ? equippedWeaponData.weaponName : "None")}");
 
         // 2. Lọc ra danh sách thẻ nâng cấp hợp lệ
         List<CardUpgrade> validUpgrades = new List<CardUpgrade>();

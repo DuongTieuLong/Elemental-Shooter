@@ -11702,14 +11702,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
   muzzle: {fileID: 1542564915}
-  playerStat: {fileID: 600993152}
   weaponAim: {fileID: 600993158}
-  leftHandRenderer: {fileID: 0}
-  playerMovement: {fileID: 0}
-  data: {fileID: 11400000, guid: 587ac1b4e2ce4a44cb75fadc3523254c, type: 2}
+  playerStat: {fileID: 600993152}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  weaponFire: {fileID: 0}
+  weaponVisual: {fileID: 0}
+  weaponStats: {fileID: 0}
+  spreadCalculator: {fileID: 0}
+  recoilController: {fileID: 0}
+  currentData: {fileID: 0}
 --- !u!114 &566905741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12944,6 +12947,12 @@ GameObject:
   - component: {fileID: 600993154}
   - component: {fileID: 600993164}
   - component: {fileID: 600993157}
+  - component: {fileID: 600993169}
+  - component: {fileID: 600993168}
+  - component: {fileID: 600993167}
+  - component: {fileID: 600993166}
+  - component: {fileID: 600993170}
+  - component: {fileID: 600993171}
   - component: {fileID: 600993158}
   - component: {fileID: 600993159}
   - component: {fileID: 600993161}
@@ -13041,14 +13050,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
   muzzle: {fileID: 1949386405}
-  playerStat: {fileID: 600993152}
   weaponAim: {fileID: 600993158}
-  leftHandRenderer: {fileID: 1231767331}
-  playerMovement: {fileID: 600993149}
-  data: {fileID: 11400000, guid: 95f4f2f9e7ab05b428548e2c9ef3778b, type: 2}
+  playerStat: {fileID: 600993152}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  weaponFire: {fileID: 0}
+  weaponVisual: {fileID: 0}
+  weaponStats: {fileID: 0}
+  spreadCalculator: {fileID: 0}
+  recoilController: {fileID: 0}
+  currentData: {fileID: 11400000, guid: 4ee4598e1d965674b929ee02f42e21fc, type: 2}
 --- !u!114 &600993158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13212,6 +13224,81 @@ MonoBehaviour:
   dynamicOffsetAngleLimit: 30
   leftArmDynamicOffset: {x: -1, y: 1, z: 0}
   animator: {fileID: 600993159}
+--- !u!114 &600993166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a3faac93fcbd5948bcabca0c88f8336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Accuracy
+--- !u!114 &600993167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071cc99639535044188255314eadbfb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Weaponstats
+--- !u!114 &600993168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74675394618a4e4fbb4d8b7d7dba9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponVisual
+  muzzle: {fileID: 1949386405}
+  leftHandRenderer: {fileID: 1231767331}
+  weaponRenderer: {fileID: 1542564916}
+--- !u!114 &600993169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9013766b7aa4c8e4a8d678d2bcd3e723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponFire
+--- !u!114 &600993170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df081f6b570a2a741be5aa21fec740dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpreadCalculator
+--- !u!114 &600993171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600993146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a5e3a444b15bf47afb828011d64676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RecoilController
 --- !u!1 &605871657
 GameObject:
   m_ObjectHideFlags: 0

@@ -163,7 +163,7 @@ public class CursorManager : MonoBehaviour
         _rectTransform.localRotation = Quaternion.Lerp(_rectTransform.localRotation, Quaternion.Euler(0, 0, targetRotation), Time.deltaTime * 15f);
 
         // 3. Áp dụng độ giãn (Zoom in/out) kết hợp giữa Spread (độ tản mát cơ bản) và Recoil Kick (độ giật nổ)
-        float currentSpread = _currentWeapon.GetCurrentSpread();
+        float currentSpread = _currentWeapon.spreadCalculator? _currentWeapon.spreadCalculator.GetCurrentSpread() : 0f;
         float targetScale = baseScale + (currentSpread * spreadScaleFactor) + (currentRecoilDist * recoilZoomFactor);
         
         // Lerp scale để crosshair co giãn mượt mà

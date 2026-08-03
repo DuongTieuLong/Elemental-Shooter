@@ -137,16 +137,16 @@ public class PauseMenuUI : MonoBehaviour
 
         // Cột 2: Thông số chiến đấu (Weapon)
         Weapon activeWeapon = playerStatHandler.GetComponent<Weapon>();
-        if (activeWeapon != null && activeWeapon.data != null)
+        if (activeWeapon != null && activeWeapon.CurrentData != null)
         {
             if (weaponAvatar != null)
             {
-                weaponAvatar.sprite = activeWeapon.data.weaponIcon;
+                weaponAvatar.sprite = activeWeapon.CurrentData.weaponIcon;
             }
 
-            string col2 = $"Damage: {activeWeapon.GetFinalDamage():F0}\n" +
-                          $"Attack Speed: {activeWeapon.GetFinalAttackSpeed():F1}\n" +
-                          $"Projectiles: {activeWeapon.GetFinalProjectileCount()}";
+            string col2 = $"Damage: {activeWeapon.weaponStats.GetFinalDamage():F0}\n" +
+                          $"Attack Speed: {activeWeapon.weaponStats.GetFinalAttackSpeed():F1}\n" +
+                          $"Projectiles: {activeWeapon.weaponStats.GetFinalProjectileCount()}";
             
             if (statsCol2Text != null) statsCol2Text.text = col2;
         }
